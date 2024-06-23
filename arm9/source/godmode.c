@@ -2447,7 +2447,7 @@ u32 GodMode(int entrypoint) {
         SetLanguage(NULL, 0);
 
         char loadpath[256];
-        if (LanguageMenu(loadpath, "Select Language for GodMode9:")) {
+        if (LanguageMenu(loadpath, "Selectionnez une langue sur GodMode9:")) {
             size_t fsize = FileGetSize(loadpath);
             if (fsize > 0) {
                 char* data = (char*)malloc(fsize);
