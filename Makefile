@@ -7,7 +7,7 @@ include $(DEVKITARM)/base_tools
 include Makefile.common
 
 # Base definitions
-export VERSION	:=	v2.1.1
+export VERSION	:=	v2.1.1 FR par Rinzler
 export DBUILTS	:=	$(shell date +'%Y%m%d%H%M%S')
 export DBUILTL  :=	$(shell date +'%Y-%m-%d %H:%M:%S')
 
